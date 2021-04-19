@@ -1,7 +1,7 @@
 /*----------BASE STYLES--------------*/
 
-body, html {
 
+body, html {
 
 	
 }
@@ -31,10 +31,5 @@ h1 {
 /*------------------Breakpoints----------------*/ 
 
 /*--------Tablets larger than 768px------------*/
-
-@media (min-width: 768px) {
-	
-}
-
 
 /*---------Desktops larger than 1200px---------*/
