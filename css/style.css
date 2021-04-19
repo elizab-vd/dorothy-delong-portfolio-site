@@ -1,11 +1,5 @@
 /*----------BASE STYLES--------------*/
 
-@font-face {
-  font-family: 'Electronica Display Stencil';
-  src:url(webkit-electronica-stencil/"../webkit-electronica-stencil/electronica_display_stencil-webfont.woff2")
-	  url(we"../webkit-electronica-stencil/electronica_display_stencil-webfont.woff")
-
-
 body, html {
 
 
@@ -13,7 +7,7 @@ body, html {
 }
 
 h1 {
-	font-family: Electronica Display Stencil;
+	font-family:'electronica display stencil';
 	
 	
 }
