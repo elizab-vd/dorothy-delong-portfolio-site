@@ -1,14 +1,56 @@
 /*----------BASE STYLES--------------*/
-
+html {
+	font-size: 25px;
+}
 
 body, html {
+	width: 1366px; 
+	height: 100%; 
+}
 
-	
+body {
+	height: 100%; 
+	font-family:'Newsreader', serif;
+	font-weight:400;  
+}
+
+.container {
+	display: flex;	
+	flex: wrap; 
+	height: 100%;
+	max-height: 200px; 
+	width: 100%;
+	justify-content: space-between; 
+}
+
+
+.header-flex-items {
+	display: flex; 
+	height: 30%; 	
 }
 
 h1 {
 	font-family:'electronica display stencil';
+	color:#A10D65; 
+	font-size: 3.4rem; 
+}
+
+.logo {
+	min-width: 95px;
+	min-height: 123px; 
+	margin-top: 50px;
+	margin-left:30px;
+}
+
+nav {
 	
+}
+
+.tagline {
+	display: flex;
+	justify-content: center;
+	font-family: 'Newsreader', serif;
+	font-weight:400; 
 	
 }
 
@@ -32,4 +74,5 @@ h1 {
 
 /*--------Tablets larger than 768px------------*/
 
-/*---------Desktops larger than 1200px---------*/
+/*---------Desktops larger than 1200px---------*/.logo {
+}
