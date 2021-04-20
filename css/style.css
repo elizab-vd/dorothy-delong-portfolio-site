@@ -29,12 +29,6 @@ body {
 	height: 30%; 	
 }
 
-h1 {
-	font-family:'electronica display stencil';
-	color:#A10D65; 
-	font-size: 3.4rem; 
-}
-
 .logo {
 	min-width: 95px;
 	min-height: 123px; 
@@ -42,8 +36,25 @@ h1 {
 	margin-left:30px;
 }
 
+h1 {
+    font-family: 'electronica display stencil';
+    color: #A10D65;
+    font-size: 3.4rem;
+    margin-left: 111px;
+    right: 0px;
+    padding-left: 25px;
+}
+
 nav {
+	min-width: 95px;
+	min-height: 123px; 
+	margin-top: 50px;
+	margin-left:30px;
 	
+}
+
+.burger {
+
 }
 
 .tagline {
@@ -51,6 +62,7 @@ nav {
 	justify-content: center;
 	font-family: 'Newsreader', serif;
 	font-weight:400; 
+	font-size: 1.4rem;
 	
 }
 
